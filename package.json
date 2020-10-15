@@ -1,11 +1,11 @@
 {
-  "name": "nodejs-with-jade",
+  "name": "node-sample",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "start": "node ./server.js",
-    "start:dev": "nodemon ./server.js"
+    "start:prod": "node ./server.js",
+    "start": "nodemon ./server.js"
   },
   "author": "",
   "license": "ISC",
